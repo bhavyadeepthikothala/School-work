@@ -1,0 +1,58 @@
+package Sridhar;
+
+import java.util.*;
+
+public class myQueue {
+	    private Stack<String> Original;    // actual stack
+	    private Stack<String> Temp;    // temporary stack
+
+	    // create an empty queue
+	    public myQueue(){
+	        Original = new Stack<String>();
+	        Temp = new Stack<String>();
+	    }
+    
+	    // verifies whether the queue is empty or not
+	    public boolean isEmpty() {
+	        return Original.isEmpty() && Temp.isEmpty();
+	    }
+	    
+	    // return the top most element of the queue
+	    public String peek() {
+	        if (isEmpty())
+	        {
+	        	System.out.println("Queue is empty");
+	        }
+	        if (Temp.isEmpty())
+	        {
+	        	while (!Original.isEmpty())
+	        	{
+		            Temp.push(Original.pop());	        
+		        }
+	        }
+	        return Temp.peek();
+	    }
+
+	    // add the item to the queue
+	    public void pushInQueue(String value) {
+	        Original.push(value);
+	    }
+
+	    // remove and return the item that is pushed in the queue first
+	    public String popInQueue() {
+	        if (isEmpty())
+	        {
+	          System.out.println("Queue is empty");
+	        }
+	        if (Temp.isEmpty())
+	        {
+	        	while (!Original.isEmpty())
+	        	{
+		            Temp.push(Original.pop());
+	        	}
+	        }
+	        return Temp.pop();
+	    }
+
+
+}

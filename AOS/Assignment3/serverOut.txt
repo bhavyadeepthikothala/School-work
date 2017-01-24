@@ -1,0 +1,56 @@
+Script started on Fri 02 Dec 2016 12:39:56 AM CST
+[48;5;54m                         [1;38;5;231m⢀⡀       [0m  [1;38;5;214mWelcome to Western Illinois University!
+[48;5;54m                         [1;38;5;231m⢸⡇       [0m
+[48;5;54m                         [1;38;5;231m⢸⡇       [0m  [1;38;5;214mHostname:[0m toolman02.wiu.edu
+[48;5;54m                         [1;38;5;231m⣴⣦       [0m  [1;38;5;214mOS:[0m CentOS 7.2.1511 x86_64
+[48;5;54m                        [1;38;5;231m⣀⣛⣋⣀      [0m  [1;38;5;214mKernel:[0m 3.10.0-327.36.3.el7.x86_64
+[48;5;54m                      [1;38;5;231m⣠⣾⣿⣿⡇⠙⣿⣆    [0m  [1;38;5;214mUptime:[0m 5 days, 20h 58m
+[48;5;54m                      [1;38;5;231m⠿⣛⣛⣛⣁⣀⣘⠛    [0m  [1;38;5;214mCPU:[0m Intel Xeon CPU X5675 @ 3.07GHz
+[48;5;54m                    [1;38;5;231m⣰⡾⠛⠉⠉⢉⠉⠉⠉⠉⠑⠂  [0m  [1;38;5;214mRAM:[0m [33;1m1234 MB [0m/ 2001 MB
+[48;5;54m                    [1;38;5;231m⠈⣣⣶⣿⣿⣿⡇  ⣷⣄   [0m   
+[48;5;54m                     [1;38;5;231m⣿⣿⣿⣿⣿⡇  ⢹⣿⡀  [0m  [1;38;5;214mUser:[0m bdk104
+[48;5;54m                   [1;38;5;231m⣤⢰⣿⣿⣿⣿⣿⠄  ⠈⣿⣧  [0m  [1;38;5;214mShell:[0m Bash
+[48;5;54m                   [1;38;5;231m⠈⣻⣿⣿⣿⣿⣶⡆   ⠘⢯⡁ [0m  [1;38;5;214mTerminal:[0m Xterm
+[48;5;54m                [1;38;5;231m⣴ ⣴⣾⣿⠿⠿⠿⠛⠛⠁    ⠈⠁ [0m  [1;38;5;214mLast Login:[0m Fri Dec 2 00:38:47 from 
+[48;5;54m               [1;38;5;231m⠰⠾⣆⣉⠁   ⠰⣶⣶⣶⣶⡖   ⣀⡀[0m              52
+[48;5;54m               [1;38;5;231m⠰⣿⠿⣛  ⢰⡿⠿⣟⣿⣿⡍  ⠰⡿⣟⡃[0m   
+[48;5;54m             [1;38;5;231m⠐⢶⣶⣶⣾⣿⡄ ⢰⣿⣿⣿⡿⠿⠇  ⢰⣿⣿⡇[0m  [1;38;5;214mAvailable Tools and Compilers:[0m 
+[48;5;54m               [1;38;5;231m⣾⣿⣿⠛⠁ ⠸⠛⠛⠋⢁⣀   ⠸⠟⠛⠁[0m       C/C++: gcc/g++ v4.8.5 20150623 (Red ...
+[48;5;54m               [1;38;5;231m⠿⠿⠿ ⣴⡆  ⣀⣀⣼⣿    ⢰⣦ [0m        Java: java v1.8.0_111, javac v1.8.0_111
+[48;5;54m                [1;38;5;231m⣤⡄ ⣿⡇ ⣿⣿⣿⣿⣿    ⢸⣿ [0m      Python: v2.7.5, v3.3.2
+[48;5;54m                [1;38;5;231m⣿⡇ ⣿⡇ ⣿⣏ ⣽⣿ ⠐⣿⣷⢸⣿ [0m        Perl: v5.16.3
+[48;5;54m                [1;38;5;231m⣿⡇ ⣿⡇ ⣿⡇ ⢸⣿ ⢸⣿⣿⢸⣿ [0m  
+[48;5;54m                [1;38;5;231m⣿⡇ ⣿⡇ ⣿⡇ ⢸⣿ ⢸⣿⣿⢸⣿ [0m  
+[48;5;54m                [1;38;5;231m⣿⡇ ⣿⡇ ⣿⡇ ⢸⣿ ⢸⣿⣿⢸⣿ [0m  
+[0m
+]0;bdk104@toolman02:~[?1034h[bdk104@toolman02 ~]$ cd cs512/assn3/kothb1S
+]0;bdk104@toolman02:~/cs512/assn3/kothb1S[bdk104@toolman02 kothb1S]$ pwd
+/home/bdk104/cs512/assn3/kothb1S
+]0;bdk104@toolman02:~/cs512/assn3/kothb1S[bdk104@toolman02 kothb1S]$ date
+Fri Dec  2 00:40:29 CST 2016
+]0;bdk104@toolman02:~/cs512/assn3/kothb1S[bdk104@toolman02 kothb1S]$ javac *.java
+]0;bdk104@toolman02:~/cs512/assn3/kothb1S[bdk104@toolman02 kothb1S]$ ls -l
+total 56
+-rw------- 1 bdk104 student  202 Dec  2 00:40 FavTAw.class
+-rw------- 1 bdk104 student  475 Dec  1 20:25 FavTAw.java
+-rw------- 1 bdk104 student  611 Dec  2 00:40 FavTAwList.class
+-rw------- 1 bdk104 student  876 Dec  1 20:30 FavTAwList.java
+-rw------- 1 bdk104 student 3163 Dec  2 00:40 FavTAwListServant.class
+-rw------- 1 bdk104 student 3805 Dec  2 00:03 FavTAwListServant.java
+-rw------- 1 bdk104 student 1586 Dec  2 00:40 FavTAwListServer.class
+-rw------- 1 bdk104 student 1058 Dec  2 00:23 FavTAwListServer.java
+-rw------- 1 bdk104 student  433 Dec  2 00:40 FavTAwServant.class
+-rw------- 1 bdk104 student  650 Dec  2 00:12 FavTAwServant.java
+-rw------- 1 bdk104 student  229 Nov 30 13:26 java.policy
+-rw------- 1 bdk104 student    0 Dec  2 00:39 serverOut.txt
+-rw------- 1 bdk104 student 1269 Dec  2 00:40 TAwObject.class
+-rw------- 1 bdk104 student 1214 Dec  2 00:19 TAwObject.java
+-rw------- 1 bdk104 student 3322 Dec  1 01:44 try.txt
+]0;bdk104@toolman02:~/cs512/assn3/kothb1S[bdk104@toolman02 kothb1S]$ java -Djava.security.policy=java.policy -Djava.rmi.s erver.codebase="file:/home/cs512/assn3/kothb1S/" Fac[KvTAwListServer
+Enter the port Number:
+1600
+FavTAwList Server is ready
+^C]0;bdk104@toolman02:~/cs512/assn3/kothb1S[bdk104@toolman02 kothb1S]$ exit
+exit
+
+Script done on Fri 02 Dec 2016 12:53:05 AM CST

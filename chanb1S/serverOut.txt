@@ -1,0 +1,38 @@
+Script started on Sat 05 Dec 2015 03:40:35 AM CST
+[4muxb4[24m:[1m~/cs512/assn3/chanb1S[0m% bash
+brc110@uxb4:~/cs512/assn3/chanb1S$ pwd
+/home/brc110/cs512/assn3/chanb1S
+brc110@uxb4:~/cs512/assn3/chanb1S$ date
+Sat Dec  5 03:40:54 CST 2015
+brc110@uxb4:~/cs512/assn3/chanb1S$ javac *.java
+Note: RaceListServant.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+brc110@uxb4:~/cs512/assn3/chanb1S$ ls -l
+total 28
+-rw-r--r-- 1 brc110 student  241 Dec  5 00:05 java.policy
+-rw------- 1 brc110 student  200 Dec  5 03:41 Race.class
+-rw-r--r-- 1 brc110 student  175 Dec  5 02:02 Race.java
+-rw------- 1 brc110 student  452 Dec  5 03:41 RaceList.class
+-rw-r--r-- 1 brc110 student  580 Dec  5 03:34 RaceList.java
+-rw------- 1 brc110 student 2449 Dec  5 03:41 RaceListServant.class
+-rw-r--r-- 1 brc110 student 4707 Dec  5 03:33 RaceListServant.java
+-rw------- 1 brc110 student 3137 Dec  5 03:36 RaceListServant_Stub.class
+-rw------- 1 brc110 student 1161 Dec  5 03:41 RaceListServer.class
+-rw-r--r-- 1 brc110 student  713 Dec  4 23:14 RaceListServer.java
+-rw------- 1 brc110 student 1060 Dec  5 03:41 RaceObject.class
+-rw-r--r-- 1 brc110 student 1264 Dec  4 23:09 RaceObject.java
+-rw------- 1 brc110 student  437 Dec  5 03:41 RaceServant.class
+-rw-r--r-- 1 brc110 student  436 Dec  5 02:02 RaceServant.java
+-rw------- 1 brc110 student 1640 Dec  5 03:36 RaceServant_Stub.class
+-rw------- 1 brc110 student    0 Dec  5 03:40 serverOut.txt
+brc110@uxb4:~/cs512/assn3/chanb1S$ rmic RaceListServant
+brc110@uxb4:~/cs512/assn3/chanb1S$ rn[Kmic RaceServant
+brc110@uxb4:~/cs512/assn3/chanb1S$ rmic RaceServantListServantls -l[Kjavac *.java[8Pdate[1Ppwddatejavac *.java[7Pls -lrmic RaceListServant[4PServant[Kjava _[K-Djava.security.policy=jva[K[Kava.policy -Djav a.rmi.server.codebase="file:/cs512/assn3/chanb1S/" RaceListServer
+RaceList server ready
+^Cbrc110@uxb4:~/cs512/assn3/chanb1S$ 
+brc110@uxb4:~/cs512/assn3/chanb1S$ exit
+exit
+[4muxb4[24m:[1m~/cs512/assn3/chanb1S[0m% exit
+exit
+
+Script done on Sat 05 Dec 2015 03:52:52 AM CST

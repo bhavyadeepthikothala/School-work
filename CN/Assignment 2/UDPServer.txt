@@ -1,0 +1,58 @@
+/* Name : Lalitha Bhogaraju
+Date : 09-17-2015 */
+
+import java.io.File;
+import java.io.*;
+import java.net.DatagramPacket;
+import java.net.DatagramSocket;
+import java.net.InetAddress;
+import java.nio.file.FileSystems;
+import java.nio.file.Files;
+import java.util.Scanner;
+
+
+
+public class Server {
+	public static DatagramSocket dataGramsocket;
+	public static byte bytes1[] = new byte[1024];
+	public static int ClientPort;
+	public static int Port;
+	public static void main(String args[]) {
+		try {
+			System.out.println("Client Port::");
+			Scanner scan1 = new Scanner(System.in);
+			if(scan1.hasNext() == true){
+				ClientPort = scan1.nextInt();
+			}
+			System.out.println("Server Port:: ");
+			if(scan1.hasNext() == true){
+				Port = scan1.nextInt();
+			}
+			
+            dataGramsocket = new DatagramSocket(ClientPort);
+			Path filePath = FileSystems.getDefault().getPath("Hosts.txt");
+			BufferedReader fileReader = new BufferedReader(new InputStreamReader(File,newInputStream(Path)));
+			//Scanner dis = new Scanner(System.in);
+			InetAddress localHost = InetAddress.getLocalHost();
+			while (true)
+			{
+				DatagramPacket packet1 = new DatagramPacket(bytes1, bytes1.length);
+				dataGramsocket.receive(packet1);
+				String op = new String(packet1.getData(), 0, packet1.getLength());
+				System.out.println("Client: " + op);
+				InetAddress ipAddress = InetAddress.getByName(op);
+				System.out.println("Server output:" + ipAddress);
+				String output = dis.nextLine();
+				if (output.equals("end"))
+				{
+					break;
+				}
+				bytes1 = output.getBytes();
+				dataGramsocket.send(new DatagramPacket(bytes1, output.length(), localHost,Port));
+			}
+			
+		} catch (Exception e) {
+			System.out.println(e);
+		}
+	}
+}

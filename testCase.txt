@@ -1,0 +1,65 @@
+/****************************************************************
+ Author: venkata kumar Uppalapati
+ Description: This Program works as a test case for implementing
+              Queues using stacks. Here user is provided with a 
+              menu of choices to perform operations on the queue 
+              i.e either place a value in queue or remove a value or
+              to find the top most element of the queue or to check
+              whether queue is empty or not  
+*****************************************************************/
+
+
+package Sridhar;
+
+import java.io.*;
+
+public class testCase {
+	public static void main(String[] args) throws IOException {
+		myQueue QStack = new myQueue();
+		BufferedReader keyboard = new BufferedReader(new InputStreamReader (System.in));
+	    int choice = 1;
+		while(choice >= 1 && choice < 5) 
+		{
+			System.out.println("\n***********************************");
+			System.out.println("1.push");
+			System.out.println("2.pop");
+			System.out.println("3.peek");
+			System.out.println("4.empty");
+			System.out.println("5.exit");
+			System.out.println("\n***********************************");
+			System.out.print("\nEnter your choice : ");
+		    choice = Integer.parseInt(keyboard.readLine());
+		    while(choice > 5 || choice < 1)
+		    {
+		    	System.out.print("Invalid Choice Try Again\n");
+		    	System.out.print("\nEnter your choice : ");
+			    choice = Integer.parseInt(keyboard.readLine());
+		    }
+			try { 
+				switch (choice) {
+				case 1:
+					System.out.print("\nEnter an element push to stack : ");
+					String pushElement = keyboard.readLine();
+					QStack.pushInQueue(pushElement);
+					System.out.println("Element " + pushElement + " is pushed to the stack");
+					break;
+				case 2:
+					System.out.println(QStack.popInQueue() + " is popped from stack");
+					break;
+				case 3:
+					System.out.println(QStack.peek() + " is top element in stack");
+					break;
+				case 4:
+					System.out.println(QStack.isEmpty() ? "stack is empty" : "stack is not empty");
+					break;
+				case 5:
+					 System.out.println(" Bye \n Have a great day");
+					break;
+				default:System.out.println("Invalid choice");
+				}
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		} 
+	}
+}

@@ -1,0 +1,83 @@
+/* Name : Lalitha Bhogaraju
+Date : 09-17-2015 */
+
+import java.net.DatagramPacket;
+import java.net.DatagramSocket;
+import java.net.InetAddress;
+import java.util.Scanner;
+import java.util.StringTokenizer;
+
+
+public class Client {
+	
+	public static int ClientPort;
+	public static int ServerPort;
+	public static DatagramSocket datagramsocket;
+
+	public static void main(String args[]) throws Exception {
+		Server server = new Server();
+		ServerPort = server.Port;
+		System.out.println("Enter Client Port number");
+		Scanner scan = new Scanner(System.in);
+		if(scan.hasNext() == true){
+			ClientPort = scan.nextInt();
+		}
+		
+		datagramsocket = new DatagramSocket(ServerPort);
+		System.out.println("server started");
+		InetAddress localHost = InetAddress.getLocalHost();
+		while (true) {
+		
+			Scanner scan1 = new Scanner(System.in);
+			String answer = scan1.nextLine();
+			StringTokenizer Tokens = new StringTokenizer(answer,".");
+			int count = Tokens.countTokens();
+			int count1=0;
+			boolean check = false;
+			boolean end = false;
+			while (Tokens.hasMoreElements())
+				
+			{
+				String token = Tokens.nextElement().toString();
+					if(token.equalsIgnoreCase("www")){
+						check=true;
+					}
+					if(count == count1){
+						if(token.equalsIgnoreCase("com")){
+							end=true;
+						}
+					}
+				count++;
+			}
+			try
+			{
+			if(check != true && end != true){
+				answer = "www. "+answer+".wiu.edu";
+				System.out.println("invalid Id");
+			} else if(check == true && end != true){
+				answer = answer+"wiu.edu";
+			}
+			
+			
+			if (answer.equals("end")) {
+				break;
+			}
+			byte bytes1[] = new byte[1024];
+			bytes1 = answer.getBytes();
+			
+			datagramsocket.send(new DatagramPacket(bytes1, answer.length(),localHost, ClientPort));
+			DatagramPacket nDataPacket = new DatagramPacket(bytes1, bytes1.length);
+			datagramsocket.receive(nDataPacket);
+			String output = new String(nDataPacket.getData(), 0, nDataPacket.getLength());
+			System.out.println(" " + output);
+			}
+			catch(Exception e)
+			{
+				System.out.println("invalid id"+ e);
+			}
+			
+		}
+	}
+}
+
+

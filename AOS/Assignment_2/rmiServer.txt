@@ -1,0 +1,55 @@
+Script started on Mon 24 Oct 2016 02:17:07 PM CDT
+[48;5;54m                         [1;38;5;231m⢀⡀       [0m  [1;38;5;214mWelcome to Western Illinois University!
+[48;5;54m                         [1;38;5;231m⢸⡇       [0m
+[48;5;54m                         [1;38;5;231m⢸⡇       [0m  [1;38;5;214mHostname:[0m toolman02.wiu.edu
+[48;5;54m                         [1;38;5;231m⣴⣦       [0m  [1;38;5;214mOS:[0m CentOS 7.2.1511 x86_64
+[48;5;54m                        [1;38;5;231m⣀⣛⣋⣀      [0m  [1;38;5;214mKernel:[0m 3.10.0-327.36.1.el7.x86_64
+[48;5;54m                      [1;38;5;231m⣠⣾⣿⣿⡇⠙⣿⣆    [0m  [1;38;5;214mUptime:[0m 16 days, 11h 28m
+[48;5;54m                      [1;38;5;231m⠿⣛⣛⣛⣁⣀⣘⠛    [0m  [1;38;5;214mCPU:[0m Intel Xeon CPU X5675 @ 3.07GHz
+[48;5;54m                    [1;38;5;231m⣰⡾⠛⠉⠉⢉⠉⠉⠉⠉⠑⠂  [0m  [1;38;5;214mRAM:[0m [1;32m531 MB [0m/ 2001 MB
+[48;5;54m                    [1;38;5;231m⠈⣣⣶⣿⣿⣿⡇  ⣷⣄   [0m   
+[48;5;54m                     [1;38;5;231m⣿⣿⣿⣿⣿⡇  ⢹⣿⡀  [0m  [1;38;5;214mUser:[0m bdk104
+[48;5;54m                   [1;38;5;231m⣤⢰⣿⣿⣿⣿⣿⠄  ⠈⣿⣧  [0m  [1;38;5;214mShell:[0m Bash
+[48;5;54m                   [1;38;5;231m⠈⣻⣿⣿⣿⣿⣶⡆   ⠘⢯⡁ [0m  [1;38;5;214mTerminal:[0m Xterm
+[48;5;54m                [1;38;5;231m⣴ ⣴⣾⣿⠿⠿⠿⠛⠛⠁    ⠈⠁ [0m  [1;38;5;214mLast Login:[0m Mon Oct 24 13:20:51 from 
+[48;5;54m               [1;38;5;231m⠰⠾⣆⣉⠁   ⠰⣶⣶⣶⣶⡖   ⣀⡀[0m              10.54.20.38
+[48;5;54m               [1;38;5;231m⠰⣿⠿⣛  ⢰⡿⠿⣟⣿⣿⡍  ⠰⡿⣟⡃[0m   
+[48;5;54m             [1;38;5;231m⠐⢶⣶⣶⣾⣿⡄ ⢰⣿⣿⣿⡿⠿⠇  ⢰⣿⣿⡇[0m  [1;38;5;214mAvailable Tools and Compilers:[0m 
+[48;5;54m               [1;38;5;231m⣾⣿⣿⠛⠁ ⠸⠛⠛⠋⢁⣀   ⠸⠟⠛⠁[0m       C/C++: gcc/g++ v4.8.5 20150623 (Red ...
+[48;5;54m               [1;38;5;231m⠿⠿⠿ ⣴⡆  ⣀⣀⣼⣿    ⢰⣦ [0m        Java: java v1.8.0_111, javac v1.8.0_111
+[48;5;54m                [1;38;5;231m⣤⡄ ⣿⡇ ⣿⣿⣿⣿⣿    ⢸⣿ [0m      Python: v2.7.5, v3.3.2
+[48;5;54m                [1;38;5;231m⣿⡇ ⣿⡇ ⣿⣏ ⣽⣿ ⠐⣿⣷⢸⣿ [0m        Perl: v5.16.3
+[48;5;54m                [1;38;5;231m⣿⡇ ⣿⡇ ⣿⡇ ⢸⣿ ⢸⣿⣿⢸⣿ [0m  
+[48;5;54m                [1;38;5;231m⣿⡇ ⣿⡇ ⣿⡇ ⢸⣿ ⢸⣿⣿⢸⣿ [0m  
+[48;5;54m                [1;38;5;231m⣿⡇ ⣿⡇ ⣿⡇ ⢸⣿ ⢸⣿⣿⢸⣿ [0m  
+[0m
+]0;bdk104@toolman02:~[?1034h[bdk104@toolman02 ~]$ cd cs512/assn2/que2
+]0;bdk104@toolman02:~/cs512/assn2/que2[bdk104@toolman02 que2]$ javac *.java
+]0;bdk104@toolman02:~/cs512/assn2/que2[bdk104@toolman02 que2]$ java -Djava.security.policy=java.policy -Djava.rmi.server.codebase="file:/home/bdk104/cs512/assn2/que2/" SHapeListServer[1PapeListServerhapeListServer[C[C[C[C[C[C[C[C[C[C[C[C[C
+Enter the port Number:
+5987
+ShapeList server ready
+^C]0;bdk104@toolman02:~/cs512/assn2/que2[bdk104@toolman02 que2]$ ls -l
+total 52
+-rw------- 1 bdk104 student 1265 Oct 24 14:17 GraphicalObject.class
+-rw------- 1 bdk104 student 1083 Oct 24 13:29 GraphicalObject.java
+-rw------- 1 bdk104 student  220 Oct 24 14:04 java.policy
+-rw------- 1 bdk104 student    0 Oct 24 14:17 rmiServer.txt
+-rw------- 1 bdk104 student  248 Oct 24 14:17 Shape.class
+-rw------- 1 bdk104 student  400 Oct 24 13:25 Shape.java
+-rw------- 1 bdk104 student  313 Oct 24 14:17 ShapeList.class
+-rw------- 1 bdk104 student  466 Oct 24 13:25 ShapeList.java
+-rw------- 1 bdk104 student  898 Oct 24 14:17 ShapeListServant.class
+-rw------- 1 bdk104 student 1135 Oct 24 13:28 ShapeListServant.java
+-rw------- 1 bdk104 student 1586 Oct 24 14:17 ShapeListServer.class
+-rw------- 1 bdk104 student 1243 Oct 24 13:44 ShapeListServer.java
+-rw------- 1 bdk104 student  569 Oct 24 14:17 ShapeServant.class
+-rw------- 1 bdk104 student  715 Oct 24 13:24 ShapeServant.java
+]0;bdk104@toolman02:~/cs512/assn2/que2[bdk104@toolman02 que2]$ pwd
+/home/bdk104/cs512/assn2/que2
+]0;bdk104@toolman02:~/cs512/assn2/que2[bdk104@toolman02 que2]$ date
+Mon Oct 24 14:26:18 CDT 2016
+]0;bdk104@toolman02:~/cs512/assn2/que2[bdk104@toolman02 que2]$ exit
+exit
+
+Script done on Mon 24 Oct 2016 02:26:25 PM CDT

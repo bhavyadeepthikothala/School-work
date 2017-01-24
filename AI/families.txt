@@ -1,0 +1,62 @@
+Welcome to SWI-Prolog (Multi-threaded, 32 bits, Version 7.2.3)
+Copyright (c) 1990-2015 University of Amsterdam, VU Amsterdam
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software,
+and you are welcome to redistribute it under certain conditions.
+Please visit http://www.swi-prolog.org for details.
+
+For help, use ?- help(Topic). or ?- apropos(Word).
+
+1 ?- ancestor(james,Y).
+Y = tyler ;
+Y = king ;
+Y = aron ;
+Y = ungaro ;
+Y = vics ;
+Y = laura ;
+false.
+
+2 ?- des(jane,Y).
+Y = peter ;
+Y = cathy ;
+Y = george ;
+Y = huges ;
+Y = douglas ;
+false.
+
+3 ?- greatgrand(X,vics).
+X = sean ;
+X = james ;
+false.
+
+4 ?- motherinlaw(X,Y).
+X = unis,
+Y = jane ;
+X = cathy,
+Y = vics ;
+false.
+
+5 ?- nephew(X,Y).
+X = ungaro,
+Y = king ;
+X = ungaro,
+Y = aron ;
+false.
+
+6 ?- brother(tyler,Y).
+Y = king ;
+Y = aron.
+
+7 ?- spouse(X,Y).
+X = jane,
+Y = vics ;
+X = vics,
+Y = jane ;
+X = unis,
+Y = ungaro ;
+X = ungaro,
+Y = unis ;
+X = peter,
+Y = cathy ;
+X = cathy,
+Y = peter ;
+false.

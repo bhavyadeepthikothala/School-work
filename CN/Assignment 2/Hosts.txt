@@ -1,0 +1,4 @@
+www.google.com  120.33.485.14
+www.toolman.wiu.edu  125.23.56.123
+www.yahoo.com  125.55.67.456
+www.netflix.com  112.34.243.223

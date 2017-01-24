@@ -1,0 +1,163 @@
+Script started on Sat 05 Dec 2015 03:43:55 AM CST
+]0;brc110@toolman:~/cs512/assn3/chanb1C[brc110@toolman chanb1C]$ bash
+]0;brc110@toolman:~/cs512/assn3/chanb1C[brc110@toolman chanb1C]$ pwd
+/home/brc110/cs512/assn3/chanb1C
+]0;brc110@toolman:~/cs512/assn3/chanb1C[brc110@toolman chanb1C]$ date
+Sat Dec  5 03:44:15 CST 2015
+]0;brc110@toolman:~/cs512/assn3/chanb1C[brc110@toolman chanb1C]$ javac *.java
+Note: RaceListServant.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+]0;brc110@toolman:~/cs512/assn3/chanb1C[brc110@toolman chanb1C]$ la[Ks -l
+[00mtotal 64
+-rw------- 1 brc110 student    0 Dec  5 03:43 [00mclientOut.txt[00m
+-rw-r--r-- 1 brc110 student  241 Dec  5 00:07 [00mjava.policy[00m
+-rw------- 1 brc110 student  200 Dec  5 03:44 [00mRace.class[00m
+-rw-r--r-- 1 brc110 student  246 Dec  4 23:42 [00mRace.java[00m
+-rw------- 1 brc110 student  452 Dec  5 03:44 [00mRaceList.class[00m
+-rw------- 1 brc110 student 2801 Dec  5 03:44 [00mRaceListClient.class[00m
+-rw-r--r-- 1 brc110 student 2720 Dec  5 03:33 [00mRaceListClient.java[00m
+-rw-r--r-- 1 brc110 student  580 Dec  5 03:34 [00mRaceList.java[00m
+-rw------- 1 brc110 student 2449 Dec  5 03:44 [00mRaceListServant.class[00m
+-rw-r--r-- 1 brc110 student 4707 Dec  5 03:33 [00mRaceListServant.java[00m
+-rw------- 1 brc110 student 3137 Dec  5 03:37 [00mRaceListServant_Stub.class[00m
+-rw------- 1 brc110 student 1060 Dec  5 03:44 [00mRaceObject.class[00m
+-rw-r--r-- 1 brc110 student 1264 Dec  4 23:09 [00mRaceObject.java[00m
+-rw------- 1 brc110 student  437 Dec  5 03:44 [00mRaceServant.class[00m
+-rw-r--r-- 1 brc110 student  436 Dec  5 02:02 [00mRaceServant.java[00m
+-rw------- 1 brc110 student 1640 Dec  5 03:37 [00mRaceServant_Stub.class[00m
+[m]0;brc110@toolman:~/cs512/assn3/chanb1C[brc110@toolman chanb1C]$ rmic RaceListServant
+]0;brc110@toolman:~/cs512/assn3/chanb1C[brc110@toolman chanb1C]$ rmic RaceServant
+]0;brc110@toolman:~/cs512/assn3/chanb1C[brc110@toolman chanb1C]$ java -Djava.security.policy=java.policy -classpath . R aceListClient 1
+Found server
+enter the name of race:
+New York Mini 10K
+enter the location of race:
+NY
+enter the year of race:
+2010
+enter the distance of race:
+10.0
+enter the time:
+69.9
+enter the personal satisfaction of race:
+7.3
+]0;brc110@toolman:~/cs512/assn3/chanb1C[brc110@toolman chanb1C]$ java -Djava.security.policy=java.policy -classpath . RaaceListClient 1
+Found server
+enter the name of race:
+Chicago Marathon
+enter the location of race:
+Chicago
+enter the year of race:
+2011
+enter the distance of race:
+42.2
+enter the time:
+240.3
+enter the personal satisfaction of race:
+9.1
+]0;brc110@toolman:~/cs512/assn3/chanb1C[brc110@toolman chanb1C]$ java -Djava.security.policy=java.policy -classpath . RaaceListClient 1
+Found server
+enter the name of race:
+New York Mini 10K
+enter the location of race:
+NY
+enter the year of race:
+2011
+enter the distance of race:
+10.0
+enter the time:
+65.2
+enter the personal satisfaction of race:
+8.0
+]0;brc110@toolman:~/cs512/assn3/chanb1C[brc110@toolman chanb1C]$ java -Djava.security.policy=java.policy -classpath . RaaceListClient 1
+Found server
+enter the name of race:
+NYC Marathon
+enter the location of race:
+NY
+enter the year of race:
+2013
+enter the distance of race:
+42.2
+enter the time:
+265.3
+enter the personal satisfaction of race:
+7.9
+]0;brc110@toolman:~/cs512/assn3/chanb1C[brc110@toolman chanb1C]$ java -Djava.security.policy=java.policy -classpath . RaaceListClient 1
+Found server
+enter the name of race:
+WIU Old Stompin' Ground Runaround
+enter the location of race:
+Macomb
+enter the year of race:
+2014
+enter the distance of race:
+5.0
+enter the time:
+23
+enter the personal satisfaction of race:
+8.5
+]0;brc110@toolman:~/cs512/assn3/chanb1C[brc110@toolman chanb1C]$ java -Djava.security.policy=java.policy -classpath . RaaceListClient 1
+Found server
+enter the name of race:
+Chicago Marathon
+enter the location of race:
+Chicago
+enter the year of race:
+2014
+enter the distance of race:
+42.2
+enter the time:
+260.0
+enter the personal satisfaction of race:
+8.1
+]0;brc110@toolman:~/cs512/assn3/chanb1C[brc110@toolman chanb1C]$ java -Djava.security.policy=java.policy -classpath . RaaceListClient 1
+Found server
+enter the name of race:
+Wi IU Fallen Soldiers 5K
+enter the location of race:
+Macomb
+enter the year of race:
+2015
+enter the distance of race:
+5.0
+enter the time:
+24.0
+enter the personal satisfaction of race:
+8.4
+]0;brc110@toolman:~/cs512/assn3/chanb1C[brc110@toolman chanb1C]$ java -Djava.security.policy=java.policy -classpath . RaaceListClient 1
+Found server
+enter the name of race:
+New YOrk Mini             York Mini 10K
+enter the location of race:
+NY
+enter the year of race:
+2011
+enter the distance of race:
+10.0
+enter the time:
+59.2
+enter the personal satisfaction of race:
+6.9
+]0;brc110@toolman:~/cs512/assn3/chanb1C[brc110@toolman chanb1C]$ java -Djava.security.policy=java.policy -classpath . RaaceListClient 1[K2
+Found server
+Name of race for the longest = Chicago Marathon
+Most frequently run race = New York Mini 10K
+Race name with Best average personal satisfaction = WIU Fallen Soldiers 5K
+No. of Chicago Marathon race submissions = 2
+Total no. of race submissions = 8
+the Distinct races are : Name = New York Mini 10K Location = NY Year = 2010 Distance = 10.0 Time Taken = 69.9 Personal Satisfaction = 7.3
+Name = Chicago Marathon Location = Chicago Year = 2011 Distance = 42.2 Time Taken = 240.3 Personal Satisfaction = 9.1
+Name = New York Mini 10K Location = NY Year = 2011 Distance = 10.0 Time Taken = 65.2 Personal Satisfaction = 8.0
+Name = NYC Marathon Location = NY Year = 2013 Distance = 42.2 Time Taken = 265.3 Personal Satisfaction = 7.9
+Name = WIU Old Stompin' Ground Runaround Location = Macomb Year = 2014 Distance = 5.0 Time Taken = 23.0 Personal Satisfaction = 8.5
+Name = Chicago Marathon Location = Chicago Year = 2014 Distance = 42.2 Time Taken = 260.0 Personal Satisfaction = 8.1
+Name = WIU Fallen Soldiers 5K Location = Macomb Year = 2015 Distance = 5.0 Time Taken = 24.0 Personal Satisfaction = 8.4
+Name = New York Mini 10K Location = NY Year = 2011 Distance = 10.0 Time Taken = 59.2 Personal Satisfaction = 6.9
+
+]0;brc110@toolman:~/cs512/assn3/chanb1C[brc110@toolman chanb1C]$ exit
+exit
+]0;brc110@toolman:~/cs512/assn3/chanb1C[brc110@toolman chanb1C]$ exit
+exit
+
+Script done on Sat 05 Dec 2015 03:52:25 AM CST

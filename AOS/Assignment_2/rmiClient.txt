@@ -1,0 +1,59 @@
+Script started on Mon 24 Oct 2016 02:20:37 PM CDT
+bdk104@uxb4:~/cs512/assn2/que2$ javac *.java
+bdk104@uxb4:~/cs512/assn2/que2$ java -Djava.security.policy=java.policy ShapeListClient "write[1PriteWrite[C[C[C[C" "Cie[Krcle"
+Enter the port Number:
+5987
+option = Writeshape = Circle
+Found server
+Got vector
+Created graphical object
+Stored shape
+bdk104@uxb4:~/cs512/assn2/que2$ java -Djava.security.policy=java.policy ShapeListClient "Write" "Circle"
+Enter the port Number:
+58 987
+option = Writeshape = Circle
+Found server
+Got vector
+Created graphical object
+Stored shape
+bdk104@uxb4:~/cs512/assn2/que2$ java -Djava.security.policy=java.policy ShapeListClient "Write" "Circle"[1P"[1P"[1P"[1P"[1P"[1P"S"q"u"a"r"e"[C
+Enter the port Number:
+5987
+option = Writeshape = Square
+Found server
+Got vector
+Created graphical object
+Stored shape
+bdk104@uxb4:~/cs512/assn2/que2$ java -Djava.security.policy=java.policy ShapeListClient "Write" "Square"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+Enter the port Number:
+5987
+option = Readshape = Rectangle
+Found server
+Got vector
+Circle50 , 50 , 300 , 400not filled
+Circle50 , 50 , 300 , 400not filled
+Square50 , 50 , 300 , 400not filled
+bdk104@uxb4:~/cs512/assn2/que2$ la[Ks - [Kl
+total 20
+-rw------- 1 bdk104 student 1265 Oct 24 14:20 GraphicalObject.class
+-rw-r--r-- 1 bdk104 student 1083 Oct 24 13:29 GraphicalObject.java
+-rw------- 1 bdk104 student  220 Oct 24 13:39 java.policy
+-rw------- 1 bdk104 student    0 Oct 24 14:20 rmiClient.txt
+-rw------- 1 bdk104 student  248 Oct 24 14:20 Shape.class
+-rw-r--r-- 1 bdk104 student  400 Oct 24 13:25 Shape.java
+-rw------- 1 bdk104 student  313 Oct 24 14:20 ShapeList.class
+-rw------- 1 bdk104 student 2682 Oct 24 14:20 ShapeListClient.class
+-rw-r--r-- 1 bdk104 student 2185 Oct 24 13:44 ShapeListClient.java
+-rw-r--r-- 1 bdk104 student  466 Oct 24 13:25 ShapeList.java
+-rw------- 1 bdk104 student  898 Oct 24 14:20 ShapeListServant.class
+-rw-r--r-- 1 bdk104 student 1135 Oct 24 13:28 ShapeListServant.java
+-rw------- 1 bdk104 student  569 Oct 24 14:20 ShapeServant.class
+-rw-r--r-- 1 bdk104 student  715 Oct 24 13:24 ShapeServant.java
+bdk104@uxb4:~/cs512/assn2/que2$ date
+Mon Oct 24 14:25:18 CDT 2016
+bdk104@uxb4:~/cs512/assn2/que2$ pwd
+/home/bdk104/cs512/assn2/que2
+bdk104@uxb4:~/cs512/assn2/que2$ exit
+exit
+
+Script done on Mon 24 Oct 2016 02:25:28 PM CDT

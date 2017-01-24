@@ -1,0 +1,252 @@
+Script started on Fri 02 Dec 2016 12:36:46 AM CST
+bdk104@uxb4:~/cs512/assn3/kothb1C$ pwd
+/home/bdk104/cs512/assn3/kothb1C
+bdk104@uxb4:~/cs512/assn3/kothb1C$ date
+Fri Dec  2 00:36:59 CST 2016
+bdk104@uxb4:~/cs512/assn3/kothb1C$ javac *.java
+bdk104@uxb4:~/cs512/assn3/kothb1C$ ls -l
+total 35
+-rw------- 1 bdk104 student    0 Dec  2 00:36 clientOut.txt
+-rw------- 1 bdk104 student  202 Dec  2 00:43 FavTAw.class
+-rw-r--r-- 1 bdk104 student  475 Dec  1 20:25 FavTAw.java
+-rw------- 1 bdk104 student  611 Dec  2 00:43 FavTAwList.class
+-rw------- 1 bdk104 student 4165 Dec  2 00:43 FavTAwListClient.class
+-rw-r--r-- 1 bdk104 student 4123 Dec  1 23:47 FavTAwListClient.java
+-rw-r--r-- 1 bdk104 student  876 Dec  1 20:30 FavTAwList.java
+-rw------- 1 bdk104 student 3163 Dec  2 00:43 FavTAwListServant.class
+-rw-r--r-- 1 bdk104 student 3805 Dec  2 00:03 FavTAwListServant.java
+-rw------- 1 bdk104 student  433 Dec  2 00:43 FavTAwServant.class
+-rw-r--r-- 1 bdk104 student  650 Dec  2 00:12 FavTAwServant.java
+-rw-r--r-- 1 bdk104 student  229 Nov 30 13:28 java.policy
+-rw------- 1 bdk104 student 1269 Dec  2 00:43 TAwObject.class
+-rw-r--r-- 1 bdk104 student 1214 Dec  2 00:19 TAwObject.java
+-rw------- 1 bdk104 student 5267 Dec  1 01:44 tryC.txt
+bdk104@uxb4:~/cs512/assn3/kothb1C$ jab[Kva -Djava.security.policy=java.policy FavTAwListClient
+Enter the port Number:
+1600
+Found server
+
+
+**********************MENU*************************************
+
+1. Add a Turing Award Winner
+2. Request a service from server 
+3. Exit
+
+Enter your Choice:
+1
+Enter the name of your favorite Turing Award Winner: 
+Leslie Lamport
+Enter the reserch subject of the winner: 
+distributed and concurrent systems
+Enter the year the winner won the Award: 
+2013
+Enter the relative rating of the winner:
+9
+Added new Turing Award Winner
+Name: Leslie Lamport  Reaserch Subject: distributed and concurrent systems Year: 2013  Rating: 9
+
+**********************MENU*************************************
+
+1. Add a Turing Award Winner
+2. Request a service from server 
+3. Exit
+
+Enter your Choice:
+1
+Enter the name of your favorite Turing Award Winner: 
+Shafi Goldwasser
+Enter the reserch subject of the winner: 
+cryptography
+Enter the year the winner won the Award: 
+2012
+Enter the relative rating of the winner:
+7
+Added new Turing Award Winner
+Name: Shafi Goldwasser  Reaserch Subject: cryptography Year: 2012  Rating: 7
+
+**********************MENU*************************************
+
+1. Add a Turing Award Winner
+2. Request a service from server 
+3. Exit
+
+Enter your Choice:
+1
+Enter the name of your favorite Turing Award Winner: 
+Leslie Lamport
+Enter the reserch subject of the winner: 
+distributed and concurrent systems
+Enter the year the winner won the Award: 
+2013
+Enter the relative rating of the winner:
+9
+Added new Turing Award Winner
+Name: Leslie Lamport  Reaserch Subject: distributed and concurrent systems Year: 2013  Rating: 9
+
+**********************MENU*************************************
+
+1. Add a Turing Award Winner
+2. Request a service from server 
+3. Exit
+
+Enter your Choice:
+1
+Enter the name of your favorite Turing Award Winner: 
+Alan Kay
+Enter the reserch subject of the winner: 
+object-oriented programming languages
+Enter the year the winner won the Award: 
+2003
+Enter the relative rating of the winner:
+7
+Added new Turing Award Winner
+Name: Alan Kay  Reaserch Subject: object-oriented programming languages Year: 2003  Rating: 7
+
+**********************MENU*************************************
+
+1. Add a Turing Award Winner
+2. Request a service from server 
+3. Exit
+
+Enter your Choice:
+1
+Enter the name of your favorite Turing Award Winner: 
+Shafi GoldWa  wasser
+Enter the reserch subject of the winner: 
+cryptography
+Enter the year the winner won the Award: 
+2012
+Enter the relative rating of the winner:
+8
+Added new Turing Award Winner
+Name: Shafi Goldwasser  Reaserch Subject: cryptography Year: 2012  Rating: 8
+
+**********************MENU*************************************
+
+1. Add a Turing Award Winner
+2. Request a service from server 
+3. Exit
+
+Enter your Choice:
+1
+Enter the name of your favorite Turing Award Winner: 
+Donald Knuth
+Enter the reserch subject of the winner: 
+distributed and concurrent systems
+Enter the year the winner won the Award: 
+1974
+Enter the relative rating of the winner:
+8
+Added new Turing Award Winner
+Name: Donald Knuth  Reaserch Subject: distributed and concurrent systems Year: 1974  Rating: 8
+
+**********************MENU*************************************
+
+1. Add a Turing Award Winner
+2. Request a service from server 
+3. Exit
+
+Enter your Choice:
+1
+Enter the name of your favorite Turing Award Winner: 
+Leslie Lamport
+Enter the reserch subject of the winner: 
+distributed and concurrent systems
+Enter the year the winner won the Award: 
+2013
+Enter the relative rating of the winner:
+7
+Added new Turing Award Winner
+Name: Leslie Lamport  Reaserch Subject: distributed and concurrent systems Year: 2013  Rating: 7
+
+**********************MENU*************************************
+
+1. Add a Turing Award Winner
+2. Request a service from server 
+3. Exit
+
+Enter your Choice:
+1
+Enter the name of your favorite Turing Award Winner: 
+Barbara Liskov
+Enter the reserch subject of the winner: 
+programming languages    and system design
+Enter the year the winner won the Award: 
+2008
+Enter the relative rating of the winner:
+8
+Added new Turing Award Winner
+Name: Barbara Liskov  Reaserch Subject: programming language and system design Year: 2008  Rating: 8
+
+**********************MENU*************************************
+
+1. Add a Turing Award Winner
+2. Request a service from server 
+3. Exit
+
+Enter your Choice:
+1
+Enter the name of your favorite Turing Award Winner: 
+s Stephen Cook
+Enter the reserch subject of the winner: 
+Complexity Theory
+Enter the year the winner won the Award: 
+1982
+Enter the relative rating of the winner:
+8
+Added new Turing Award Winner
+Name: Stephen Cook  Reaserch Subject: Complexity Theory Year: 1982  Rating: 8
+
+**********************MENU*************************************
+
+1. Add a Turing Award Winner
+2. Request a service from server 
+3. Exit
+
+Enter your Choice:
+2
+Name: Leslie Lamport  Reasearch: distributed and concurrent systems  Year: 2013  Rating: 9
+
+Name: Shafi Goldwasser  Reasearch: cryptography  Year: 2012  Rating: 7
+
+Name: Leslie Lamport  Reasearch: distributed and concurrent systems  Year: 2013  Rating: 9
+
+Name: Alan Kay  Reasearch: object-oriented programming languages  Year: 2003  Rating: 7
+
+Name: Shafi Goldwasser  Reasearch: cryptography  Year: 2012  Rating: 8
+
+Name: Donald Knuth  Reasearch: distributed and concurrent systems  Year: 1974  Rating: 8
+
+Name: Leslie Lamport  Reasearch: distributed and concurrent systems  Year: 2013  Rating: 7
+
+Name: Barbara Liskov  Reasearch: programming language and system design  Year: 2008  Rating: 8
+
+Name: Stephen Cook  Reasearch: Complexity Theory  Year: 1982  Rating: 8
+
+Request: what is the name of the Turing Award Winner for which there have been more submissions so far ? Leslie Lamport
+Request: What is the name of the Turing Award winner that has the greatest average rating over all submissions made so far ? Leslie Lamport
+Request: How many Turing Award winner submissions have there been made so far for Shafi Goldwasser? 2
+Request: How many Turing Award winner Submissions have there been so far? 9
+Request: Give a complete list of different Turing Award Winners for which there have been submission(s)? 
+Leslie Lamport
+Shafi Goldwasser
+Alan Kay
+Donald Knuth
+Barbara Liskov
+Stephen Cook
+
+
+
+**********************MENU*************************************
+
+1. Add a Turing Award Winner
+2. Request a service from server 
+3. Exit
+
+Enter your Choice:
+3
+bdk104@uxb4:~/cs512/assn3/kothb1C$ exit
+exit
+
+Script done on Fri 02 Dec 2016 12:52:23 AM CST
